@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#50896;&#51032; &#47732;&#51201;"/>
+        <attribute name="authors" value="jghi10"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-05 01:55:28 &#50724;&#54980;"/>
+        <attribute name="created" value="amdoaTEwO0hPTkcxOzIwMjYtMDQtMDU7MDE6NDE6MjIg7Jik7ZuEOzEwNzY4NA=="/>
+        <attribute name="edited" value="amdoaTEwO0hPTkcxOzIwMjYtMDQtMDU7MDE6NTU6Mjgg7Jik7ZuEOzE7MTA3ODAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, extant" type="Real" array="False" size=""/>
+            <output expression="&quot;&#48152;&#51648;&#47492;&#51060; &#47751;cm &#51077;&#45768;&#44620;?: &quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="extant" expression="r*r*3.14"/>
+            <output expression="&quot;&#48152;&#51648;&#47492; &quot;&amp;r&amp;&quot;&#51064; &#50896; &#45331;&#51060;&#45716; &quot;&amp;extant&amp;&quot;&#51077;&#45768;&#45796;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

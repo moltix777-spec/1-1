@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#49464; &#49688;&#51032; &#44273;"/>
+        <attribute name="authors" value="jghi10"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-05 01:28:56 &#50724;&#54980;"/>
+        <attribute name="created" value="amdoaTEwO0hPTkcxOzIwMjYtMDQtMDU7MDE6MjU6MzIg7Jik7ZuEOzEwNzY4Nw=="/>
+        <attribute name="edited" value="amdoaTEwO0hPTkcxOzIwMjYtMDQtMDU7MDE6Mjg6NTYg7Jik7ZuEOzE7MTA3ODA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3, result" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#51221;&#49688;&#47484; &#51077;&#47141;&#54616;&#49884;&#50724;(1): &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;&#51221;&#49688;&#47484; &#51077;&#47141;&#54616;&#49884;&#50724;(2): &quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;&#51221;&#49688;&#47484; &#51077;&#47141;&#54616;&#49884;&#50724;(3): &quot;" newline="True"/>
+            <input variable="num3"/>
+            <assign variable="result" expression="num1*num2*num3"/>
+            <output expression="&quot;&#49464; &#49688;&#51032; &#44273;&#51008; &quot;&amp;result&amp;&quot;&#51060;&#45796;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

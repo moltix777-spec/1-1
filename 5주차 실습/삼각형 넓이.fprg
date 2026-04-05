@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#49340;&#44033;&#54805; &#45331;&#51060;"/>
+        <attribute name="authors" value="jghi10"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-05 01:41:17 &#50724;&#54980;"/>
+        <attribute name="created" value="amdoaTEwO0hPTkcxOzIwMjYtMDQtMDU7MDE6MzY6NTAg7Jik7ZuEOzEwNzY4OQ=="/>
+        <attribute name="edited" value="amdoaTEwO0hPTkcxOzIwMjYtMDQtMDU7MDE6NDE6MTcg7Jik7ZuEOzE7MTA3Nzk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, height" type="Integer" array="False" size=""/>
+            <declare name="extant" type="Real" array="False" size=""/>
+            <output expression="&quot;&#48145;&#48320;&#51032; &#44600;&#51060;&#47484; &#51077;&#47141;&#54616;&#49884;&#50724;(&#51221;&#49688;): &quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;&#45458;&#51060;&#51032; &#44600;&#51060;&#47484; &#51077;&#47141;&#54616;&#49884;&#50724;(&#51221;&#49688;): &quot;" newline="True"/>
+            <input variable="height"/>
+            <assign variable="extant" expression="0.5*base*height"/>
+            <output expression="&quot;&#49340;&#44033;&#54805;&#51032; &#45331;&#51060;&#45716; &quot;&amp;extant&amp;&quot;&#51077;&#45768;&#45796;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

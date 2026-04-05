@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#45236;&#45380; &#45208;&#51060;"/>
+        <attribute name="authors" value="jghi10"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-05 01:36:46 &#50724;&#54980;"/>
+        <attribute name="created" value="amdoaTEwO0hPTkcxOzIwMjYtMDQtMDU7MDE6Mjk6MTIg7Jik7ZuEOzEwNzY4OQ=="/>
+        <attribute name="edited" value="amdoaTEwO0hPTkcxOzIwMjYtMDQtMDU7MDE6MzY6NDYg7Jik7ZuEOzE7MTA3ODAy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age, year" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#45817;&#49888;&#51008; &#50732;&#54644; &#47751;&#49332; &#51077;&#45768;&#44620;?(&#49332;): &quot;" newline="True"/>
+            <input variable="age"/>
+            <output expression="&quot;&#47751;&#45380; &#46244;&#44032; &#44417;&#44552;&#54633;&#45768;&#44620;?: &quot;" newline="True"/>
+            <input variable="year"/>
+            <assign variable="age" expression="age + year"/>
+            <output expression="&quot;&#45817;&#49888;&#51008; &quot;&amp;year&amp;&quot;&#45380; &#46244;&#50640;&quot;&amp;age&amp;&quot;&#49332;&#51077;&#45768;&#45796;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
